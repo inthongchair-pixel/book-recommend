@@ -1,11 +1,42 @@
 .body {
-    background-color: #dcdcdc;
+    background-color: #84994F;
     font-family: 'Kanit', sans-serif;
     font-size: 45px;
+    line-height: 1
+
+
+}
+.body2{
+ font-family: 'Playpen Sans Thai', sans-serif;
+ font-size: 45px;
 
 }
 
+.body3 {
+   background-color: #FFE797
+}
+.navbar {
+  background-color: #B45253 !important; /* เปลี่ยนพื้นหลัง */
+  box-shadow: 0 2px 5px rgba(3, 0, 0, 0.1); /* เพิ่มเงาเล็กน้อย */
+  font-family: 'Kanit', 'IBM Plex Sans Thai Looped', sans-serif; /* 2. ฟอนต์ */
+}
 
+.navbar-nav .nav-link {
+  color: #ffffff !important; /* สีพื้นฐานของลิงก์ */
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #FCB53B !important; /* สีตอนชี้เมาส์ */
+}
+
+
+.navbar-brand {
+  font-weight: bold;
+  color: #ffffff !important;
+  font-size: 1.2rem;
+}
 
 .h {
     font-family: 'Kanit', sans-serif;
@@ -31,29 +62,25 @@
 
 
 .carousel-title-box {
-  background-color: #e3db6e;
+  background-color: #B45253;
   padding: 20px 0;
   border-radius: 10px;          /* ✅ โค้งทุกมุม */
   margin-bottom: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-   width: 75%;              /* ✅ กำหนดให้ใหญ่กว่ารูปต้นฉบับ (เช่นจาก 60% → 75%) */
+  width: 75%;              /* ✅ กำหนดให้ใหญ่กว่ารูปต้นฉบับ (เช่นจาก 60% → 75%) */
   max-width: 850px;        /* จำกัดความกว้างสูงสุด */
   margin: 30px auto; 
+
 }
 
 
 
 .boom{
-color: #f0dc00;
+color: #000000;
 
 }
 
 
-
-.accordion-button:not(.collapsed) {
-  background-color: #fff369; /* ✅ สีฟ้าอ่อนตอนเปิด */
-  box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
-}
 
 
 
@@ -72,4 +99,28 @@ color: #f0dc00;
   height: 100px;
   border-radius: 50%;         /* ครอปเป็นวงกลม */
   object-fit: cover;          /* ครอบรูปไม่ให้บิด */
+  border: 2px solid #84994F;
+}
+
+.info-box {
+  background-color: #84994F; /* สีพื้นหลังของกล่อง */
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  height: 100%;
+  font-family: 'Playpen Sans Thai', sans-serif;
+}
+.info-box img {
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+.h-wc {
+color: #ffffff
+}
+
+.footer {
+background-color: #84994F
 }
